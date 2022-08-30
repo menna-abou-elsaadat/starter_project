@@ -46,7 +46,7 @@ jobs:
           command: |
             echo "TODO: Build the backend API"
 
-        deploy:
+      - deploy:
           docker:
             - image: "cimg/base:stable"
             # more setup needed for aws, node, elastic beanstalk
