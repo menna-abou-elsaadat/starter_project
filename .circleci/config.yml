@@ -30,7 +30,7 @@ jobs:
           command: |
            echo "TODO: Install dependencies in the the backend API  "
       # TODO: Lint the frontend
-      npm run frontend:lint -f
+      # npm run frontend:lint
       - run:
           name: Front-End Lint
           command: |
