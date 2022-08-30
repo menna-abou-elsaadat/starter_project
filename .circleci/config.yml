@@ -23,7 +23,7 @@ jobs:
             echo $(node --version)
             echo "NPM --version" 
             echo $(npm --version)
-            npm run frontend:install 
+            npm run frontend:install -f
             npm run api:install       
       - run:
           name: Install API Dependencies

@@ -1,1 +1,3 @@
 node_modules
+/udagram/udagram-api/.env
+/udagram/.elasticbeanstalk
