@@ -58,7 +58,6 @@ jobs:
       - checkout
       - run:
           name: Deploy App
-          # TODO: Install, build, deploy in both apps
           npm run api:install
           npm run frontend:install
           npm run api:build
