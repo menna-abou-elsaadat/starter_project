@@ -54,7 +54,6 @@ jobs:
     steps:
       - node/install:
           node-version: '14.15' 
-      - pip install awsebcli
       - eb/setup
       - aws-cli/setup
       - checkout
