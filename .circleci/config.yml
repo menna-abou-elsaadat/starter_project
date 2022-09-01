@@ -61,7 +61,6 @@ jobs:
           name: Deploy App
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            bash ./udagram/udagram-api/setup-eb.sh
             npm run api:install
             npm run frontend:install
             npm run api:build
